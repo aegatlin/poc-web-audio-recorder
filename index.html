@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <button class="record" onclick="r.record()">record</button>
+    <button class="stop" onclick="r.stop()">stop</button>
+    <button type="" onclick="r.logAudioBlob()">log blob</button>
+
+    <script src="./recorder.js"></script>
+
+    <script>
+      let r = new Recorder()
+    </script>
+  </body>
+</html>
